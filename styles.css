@@ -8,7 +8,6 @@ body {
 
 /* Navigation Bar */
 .nav-wrapper {
-    box-sizing: border-box;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -65,12 +64,15 @@ body {
     background-color:  #000000;
 }
 
+
+
+
 @media screen and (max-width: 992px) {
     /* navigation bar */
     .nav-links a, .nav-links button {
         display: none;
     }
     .nav-links .bar-icon {
-        display: inline-block !important;
+        display: inline-block;
     }
 }
