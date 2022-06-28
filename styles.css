@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0;
+}
+
+/* Navigation Bar */
+.nav-wrapper {
+    box-sizing: border-box;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color:  #ff3399;
+    padding: 0 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    color: #ffffff;
+}
+.nav-links {
+    display: flex;
+}
+.nav-links a {
+    padding: 20px;
+    text-decoration: none;
+    margin: 0;
+    color: #ffffff;
+    transition-duration: 0.2s;
+}
+.nav-links button {
+    margin: 15px 0 13px 10px;
+    padding: 0 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.nav-links a:hover {
+    background-color:  #ff99cc;
+}
+.nav-links a:active {
+    background-color: #cc0066;
+}
+.nav-links button:hover {
+    background-color:  #333333;
+    color: #ffffff;
+}
+.nav-links button:active {
+    background-color:  #000000;
+}
