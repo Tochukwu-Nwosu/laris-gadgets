@@ -13,8 +13,8 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    background-color:  #ff3399;
-    padding: 0 70px;
+    background-color:  #f73d93;
+    padding: 0 5%;
     width: 100%;
     position: fixed;
     top: 0;
@@ -44,6 +44,13 @@ body {
     border-radius: 50px;
     font-weight: bold;
 }
+.nav-links .bar-icon {
+    display: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 5px;
+    
+}
 .nav-links a:hover {
     background-color:  #ff99cc;
 }
@@ -56,4 +63,14 @@ body {
 }
 .nav-links button:active {
     background-color:  #000000;
+}
+
+@media screen and (max-width: 992px) {
+    /* navigation bar */
+    .nav-links a, .nav-links button {
+        display: none;
+    }
+    .nav-links .bar-icon {
+        display: inline-block !important;
+    }
 }
