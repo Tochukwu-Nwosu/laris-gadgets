@@ -68,13 +68,13 @@ body {
 
 /* First Main */
 
-.first-main {
+.first-section {
     width: 100%;
     background-color: rgba(196, 196, 196, 0.35);
     margin-top: 60px;
     padding: 80px 0;
 }
-.wrapper-first-main {
+.wrapper-first-section {
     max-width: 88%;
     margin-left: 10%;
     display: flex;
@@ -133,8 +133,8 @@ body {
         display: inline-block;
     }
 
-    /* First Main */
-    .wrapper-first-main {
+    /* First Section */
+    .wrapper-first-section {
         max-width: 90%;
         margin: 0 5%;
     }
