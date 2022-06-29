@@ -64,6 +64,58 @@ body {
     background-color:  #000000;
 }
 
+/* First Main */
+
+.first-main {
+    width: 100%;
+    background-color: rgba(196, 196, 196, 0.35);
+    margin-top: 60px;
+    padding: 80px 0;
+    height: calc(100vh - 60px);
+}
+.wrapper-first-main {
+    width: 90%;
+    margin-left: 10%;
+    display: flex;
+    position: relative;
+}
+.img1-wrapper {
+    flex: 0 0 40%;
+    position: absolute;
+    top: -50px;
+    left: 55%;
+}
+.img1-wrapper img {
+    width: 520px;
+    height: 480px;
+}
+.text1-wrapper {
+    flex: 0 0 60%;
+}
+.text1-wrapper h1 {
+    margin: 0 0 10px;
+    color: #16003b;
+}
+.text1-wrapper .first-text {
+    font-weight: 400;
+    font-size: 3.5rem;
+}
+.text1-wrapper .second-text {
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+.text1-wrapper p {
+    color: #16003b;
+    font-size: 1.5rem;
+}
+.text1-wrapper button {
+    background-color: #16003b;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 50px;
+}
 
 
 
