@@ -73,7 +73,6 @@ body {
     background-color: rgba(196, 196, 196, 0.35);
     margin-top: 60px;
     padding: 80px 0;
-    min-height: 550px;
 }
 .wrapper-first-main {
     max-width: 88%;
@@ -133,8 +132,18 @@ body {
     .nav-links .bar-icon {
         display: inline-block;
     }
+
+    /* First Main */
+    .wrapper-first-main {
+        max-width: 90%;
+        margin: 0 5%;
+    }
+    .text1-wrapper {
+        flex: 0 0 100%;
+    }
+    .img1-wrapper {
+        flex: 0 0 100%;
+        margin-top: 30px;
+    }
 }
 
-@media screen and (max-width: 768px) {
-    
-}
