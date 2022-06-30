@@ -4,6 +4,7 @@
 }
 body {
     margin: 0;
+    background-color: rgba(196, 196, 196, 0.35);;
 }
 
 /* Navigation Bar */
@@ -71,7 +72,6 @@ body {
 
 .first-section {
     width: 100%;
-    background-color: rgba(196, 196, 196, 0.35);
     margin-top: 60px;
     padding: 80px 0;
 }
@@ -221,6 +221,22 @@ body {
     .img1-wrapper {
         flex: 0 0 100%;
         margin-top: 30px;
+    }
+
+    /* First Aside */
+    .first-aside {
+        flex-direction: column;
+    }
+    .first-aside-item3-wrapper {
+        margin-left: 0;
+        margin-bottom: 20px;
+        padding-left: 15px;
+    }
+    .first-aside-item3 {
+        margin: 0;
+    }
+    .first-aside-item3 img {
+        bottom: 0;
     }
 }
 
