@@ -7,6 +7,7 @@ body {
 }
 
 /* Navigation Bar */
+
 .nav-wrapper {
     height: 60px;
     display: flex;
@@ -111,6 +112,7 @@ body {
     color: #ffffff;
     text-align: center;
     padding: 12px 30px;
+    font-weight: 700;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -121,6 +123,81 @@ body {
 .text1-wrapper button:active {
     background-color: #16003b;
 }
+
+/* First Aside */
+
+.first-aside {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f73d93;
+    width: 100%;
+    padding: 0px 10px 10px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.first-aside-item1-wrapper {
+    flex: 0 0 40%;
+    padding-left: 15px;
+}
+.first-aside-item1 {
+    margin-top: 10%;
+}
+.first-aside h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 0;
+}
+.first-aside p {
+    margin: 8px 0;
+}
+.first-aside-item2 {
+    flex: 0 0 25%;
+    height: 330px;
+}
+.first-aside-item2 img {
+    width: 100%;
+    height: 100%;
+}
+.first-aside-item3-wrapper {
+    flex: 0 0 30%;
+    margin-left: 5%;
+    position: relative;
+}
+.first-aside-item3 {
+    margin: 15% 0 0 10%;
+}
+.first-aside-item3-wrapper button {
+    background-color: #ffffff;
+    color: #ff0000;
+    margin-top: 15px;
+    text-align: center;
+    padding: 12px 30px;
+    border: none;
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.first-aside-item3 img {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+.first-aside-item3-wrapper button:hover {
+   background-color: #16003b;
+   color: #ffffff;
+}
+.first-aside-item3-wrapper button:active {
+    background-color: #250066;
+}
+.first-aside-item3 img:hover {
+    opacity: 0.7;
+}
+.first-aside-item3 img:active {
+    opacity: 1;
+}
+
+
 
 
 
