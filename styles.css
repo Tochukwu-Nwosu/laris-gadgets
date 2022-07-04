@@ -213,6 +213,7 @@ body {
     font-size: 1.7rem;
     font-weight: 400;
 }
+/* New Product */
 .new-products-wrapper {
     width: 80%;
     margin: 90px auto 20px;
@@ -230,7 +231,7 @@ body {
 .new-product {
     flex: 0 0 30%;
     background-color: rgba(255, 182, 193, 0.35);
-    padding: 10px;
+    padding: 20px 10px;
     text-align: left;
 }
 .new-product div {
