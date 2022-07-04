@@ -293,6 +293,24 @@ body {
     font-weight: 500;
 }
 
+.second-section button {
+    background-color: #ff0000;
+    color: #ffffff;
+    margin-top: 15px;
+    text-align: center;
+    padding: 12px 30px;
+    border: none;
+    /* font-weight: 700; */
+    border-radius: 50px;
+    cursor: pointer;
+}
+.second-section button:hover {
+    background-color: #16003b;
+}
+.second-section button:active {
+    background-color: #250066;
+}
+
 
 
 @media screen and (max-width: 992px) {
