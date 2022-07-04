@@ -366,5 +366,34 @@ body {
     .first-aside-item3 img {
         bottom: 0;
     }
+
+    /* Second Section */
+
+    /* New Product */
+    .new-products-wrapper {
+        width: 60%;
+    }
+    .new-products {
+        flex-direction: column;
+    }
+    .new-product {
+        margin-bottom: 40px;
+    }
+    .new-product:last-child {
+        margin-bottom: 0;
+    }
+    /* Category */
+    .categories-wrapper {
+        width: 60%;
+    }
+    .categories {
+        flex-direction: column;
+    }
+    .category {
+        margin-bottom: 40px;
+    }
+    .category:last-child {
+        margin-bottom: 0;
+    }
 }
 
