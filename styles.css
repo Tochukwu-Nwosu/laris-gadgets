@@ -532,6 +532,12 @@ body {
     .second-aside-item3 img {
         bottom: 0;
     }
+
+    /* Third Section */
+    .third-section-image-wrapper {
+        width: 80%;
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width:768px) {
