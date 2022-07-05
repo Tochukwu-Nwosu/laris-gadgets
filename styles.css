@@ -444,6 +444,48 @@ body {
     opacity: 1;
 }
 
+/* Third Aside */
+.third-aside {
+    padding: 30px 0 60px;
+    background-color: #16003b;
+    width: 100%;
+}
+.third-aside h2 {
+    margin: 10px 0 0;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+}
+.third-aside-items {
+    /* width: 80%; */
+    /* margin: 20px auto; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+}
+.third-aside-item {
+    /* flex: 0 0 30%; */
+    /* background-color: #ffffff; */
+    /* display: flex;
+    flex-direction: column; */
+}
+.third-aside-item div {
+    /* width: 80%; */
+    /* margin: 20px auto; */
+
+}
+.third-aside-item-image img{
+    width: 50px;
+    height: 50px;
+}
+.third-aside-item-text {
+    /* text-align: center; */
+}
+.third-aside-item-text .star-emoji {
+    /* color: #eeee00; */
+    /* font-size: 1.2rem; */
+}
+
 
 
 
