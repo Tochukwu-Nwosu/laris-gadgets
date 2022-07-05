@@ -145,7 +145,7 @@ body {
     margin-top: 10%;
 }
 .first-aside h2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 900;
     margin: 0;
 }
@@ -320,7 +320,6 @@ body {
     text-align: center;
     padding: 12px 30px;
     border: none;
-    /* font-weight: 700; */
     border-radius: 50px;
     cursor: pointer;
     transition-duration: 0.2s;
@@ -350,7 +349,7 @@ body {
     margin-top: 10%;
 }
 .second-aside h2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 900;
     margin: 0;
 }
@@ -467,7 +466,7 @@ body {
         margin-bottom: 0;
     }
     .special-wrapper {
-        height: 400px;
+        height: 400px;   /* This fix the first image in new product */
     }
     .special-wrapper img {
         height: 100%;
@@ -509,7 +508,7 @@ body {
 
 @media screen and (max-width:768px) {
     .special-wrapper {
-        height: auto;
+        height: auto;   /* This fix the first image in new product */
     }
 }
 
