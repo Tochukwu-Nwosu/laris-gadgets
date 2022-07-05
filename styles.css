@@ -408,6 +408,34 @@ body {
     opacity: 1;
 }
 
+/* Third Section */
+.third-section {
+    width: 100%;
+    background-color: rgba(196, 196, 196, 0.35);
+    text-align: center;
+    padding: 40px;
+}
+.third-section h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+.third-section-image-wrapper {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.third-section-image-wrapper div {
+    flex: 0 0 48%;
+    height: 345px;
+    margin-bottom: 20px;
+}
+.third-section-image-wrapper div img {
+    width: 100%;
+    height: 100%;
+}
+
 
 
 
