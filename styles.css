@@ -478,5 +478,25 @@ body {
     .category:last-child {
         margin-bottom: 0;
     }
+
+    /* Second Aside */
+    .second-aside {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .second-aside-item2 img {
+        width: 100%;
+        height: 500px;
+    }
+    .second-aside-item3-wrapper {
+        margin: 450px 0 20px;
+        padding-left: 15px;
+    }
+    .second-aside-item3 {
+        margin: 0;
+    }
+    .second-aside-item3 img {
+        bottom: 0;
+    }
 }
 
