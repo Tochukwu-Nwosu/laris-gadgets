@@ -437,6 +437,7 @@ body {
     /* First Aside */
     .first-aside {
         flex-direction: column;
+        padding: 0 5%;
     }
     .first-aside-item3-wrapper {
         margin-left: 0;
@@ -465,6 +466,12 @@ body {
     .new-product:last-child {
         margin-bottom: 0;
     }
+    .special-wrapper {
+        height: 400px;
+    }
+    .special-wrapper img {
+        height: 100%;
+    }
     /* Category */
     .categories-wrapper {
         width: 60%;
@@ -482,7 +489,7 @@ body {
     /* Second Aside */
     .second-aside {
         flex-direction: column;
-        padding: 20px;
+        padding: 0 5%;
     }
     .second-aside-item2 img {
         width: 100%;
@@ -497,6 +504,12 @@ body {
     }
     .second-aside-item3 img {
         bottom: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .special-wrapper {
+        height: auto;
     }
 }
 
