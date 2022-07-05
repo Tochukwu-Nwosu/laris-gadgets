@@ -332,6 +332,84 @@ body {
     background-color: #250066;
 }
 
+/* Second Aside */
+.second-aside {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f73d93;
+    width: 100%;
+    padding: 0px 10px 10px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.second-aside-item1-wrapper {
+    flex: 0 0 25%;
+    padding-left: 15px;
+}
+.second-aside-item1 {
+    margin-top: 10%;
+}
+.second-aside h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 0;
+}
+.second-aside p {
+    margin: 8px 0;
+}
+.second-aside-item2 {
+    flex: 0 0 25%;
+    height: 300px;
+    position: relative;
+}
+.second-aside-item2 img {
+    width: 500px;
+    height: 550px;
+    position: absolute;
+    top: -40%;
+}
+.second-aside-item3-wrapper {
+    flex: 0 0 30%;
+    margin-left: 20%;
+    position: relative;
+}
+.second-aside-item3 {
+    margin: 15% 0 0 10%;
+}
+.second-aside-item3-wrapper button {
+    background-color: #ffffff;
+    color: #0cdf0c;
+    margin-top: 15px;
+    text-align: center;
+    padding: 12px 30px;
+    border: none;
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.second-aside-item3 img {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.second-aside-item3-wrapper button:hover {
+   background-color: #16003b;
+   color: #ffffff;
+}
+.second-aside-item3-wrapper button:active {
+    background-color: #250066;
+}
+.second-aside-item3 img:hover {
+    opacity: 0.7;
+}
+.second-aside-item3 img:active {
+    opacity: 1;
+}
+
+
 
 
 @media screen and (max-width: 992px) {
