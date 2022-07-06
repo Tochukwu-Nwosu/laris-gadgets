@@ -513,6 +513,8 @@ body {
     margin-bottom: 50px;
     background-color: rgba(255, 182, 193, 0.35);
     text-align: center;
+    transition-duration: 0.2s;
+    cursor: pointer;
 }
 .fourth-section-item:last-child {
     margin-right: 35%;      /* This is to fix the problem withthe last child */
@@ -531,6 +533,12 @@ body {
 .fourth-section-item-head h3 {
     flex: 0 0 90%;
     margin: 0;
+}
+.fourth-section-item:hover {
+    box-shadow: 0 20px 10px 0 rgba(0,0,0,0.2);
+}
+.fourth-section-item:active {
+    opacity: 0.6;
 }
 
 
