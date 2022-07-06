@@ -510,12 +510,29 @@ body {
 }
 .fourth-section-item {
     flex: 0 0 30%;
-    height: 300px;
     margin-bottom: 50px;
+    background-color: rgba(255, 182, 193, 0.35);
+    text-align: center;
 }
 .fourth-section-item:last-child {
     margin-right: 35%;      /* This is to fix the problem withthe last child */
 }
+.fourth-section-item div {
+    width: 80%;
+    margin: 20px 10% 30px;
+}
+.fourth-section-item-head {
+    display: flex;
+}
+.fourth-section-item-head img {
+    flex: 0 0 10%;
+    height: 30px;
+}
+.fourth-section-item-head h3 {
+    flex: 0 0 90%;
+    margin: 0;
+}
+
 
 
 
