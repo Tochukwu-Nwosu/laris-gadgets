@@ -469,6 +469,7 @@ body {
     padding: 30px 20px 10px;
     background-color: #ffffff;
     color: #000000;
+    transition-duration: 0.2s;
 }
 .third-aside-item div {
     width: 90%;
@@ -482,7 +483,39 @@ body {
     color: #eeee00;
     font-size: 1.2rem;
 }
+.third-aside-item:hover {
+    box-shadow: 0 10px 20px 0 rgba(255,255,255,0.35);
+}
 
+/* Fourth Section */
+.fourth-section {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}
+.fourth-section h2 {
+    margin: 0 0 10px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.fourth-section p {
+    margin: 0;
+}
+.fourth-section-item-wrapper {
+    width: 80%;
+    margin: 50px 10% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fourth-section-item {
+    flex: 0 0 30%;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.fourth-section-item:last-child {
+    margin-right: 35%;      /* This is to fix the problem withthe last child */
+}
 
 
 
