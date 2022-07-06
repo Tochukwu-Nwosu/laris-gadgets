@@ -652,6 +652,17 @@ body {
     .third-aside-item:not(.third-aside-item:last-child) {
         margin-bottom: 30px;
     }
+
+    /* Fourth Srction */
+    .fourth-section-item-wrapper {
+        flex-direction: column;
+        width: 70%;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+    .fourth-section-item:last-child {
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width:768px) {
