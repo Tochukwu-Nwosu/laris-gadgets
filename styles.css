@@ -585,6 +585,15 @@ body {
         width: 80%;
         flex-direction: column;
     }
+
+    /* Third Aside */
+    .third-aside-item-wrapper {
+        flex-direction: column;
+        width: 70%;
+    }
+    .third-aside-item:not(.third-aside-item:last-child) {
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width:768px) {
