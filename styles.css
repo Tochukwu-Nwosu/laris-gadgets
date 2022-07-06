@@ -446,44 +446,41 @@ body {
 
 /* Third Aside */
 .third-aside {
-    padding: 30px 0 60px;
     background-color: #16003b;
+    text-align: center;
+    color: #ffffff;
     width: 100%;
+    padding: 30px 0 80px;
 }
 .third-aside h2 {
-    margin: 10px 0 0;
-    color: #ffffff;
-    text-align: center;
+    margin: 0 0 10px;
+    font-size: 2rem;
     font-weight: 400;
 }
-.third-aside-items {
-    /* width: 80%; */
-    /* margin: 20px auto; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-around; */
+.third-aside-item-wrapper {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .third-aside-item {
-    /* flex: 0 0 30%; */
-    /* background-color: #ffffff; */
-    /* display: flex;
-    flex-direction: column; */
+    flex: 0 0 30%;
+    padding: 30px 20px 10px;
+    background-color: #ffffff;
+    color: #000000;
 }
 .third-aside-item div {
-    /* width: 80%; */
-    /* margin: 20px auto; */
-
+    width: 90%;
+    margin: 0 5%;
 }
-.third-aside-item-image img{
-    width: 50px;
-    height: 50px;
-}
-.third-aside-item-text {
-    /* text-align: center; */
+.third-aside-item-image img {
+    width: 100px;
+    height: 100px;
 }
 .third-aside-item-text .star-emoji {
-    /* color: #eeee00; */
-    /* font-size: 1.2rem; */
+    color: #eeee00;
+    font-size: 1.2rem;
 }
 
 
