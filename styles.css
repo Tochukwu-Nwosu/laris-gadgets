@@ -586,7 +586,8 @@ footer {
     padding: 5px;
     background-color: #09001a;
     text-align: center;
-    clip-path: polygon(15% 0%, 85% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
 }
 .credits p {
     margin: 0;
