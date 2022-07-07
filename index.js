@@ -6,3 +6,11 @@ function myFunction() {
       obj.className = "nav-links";
     }
   }
+
+  const topNav = document.querySelector('#topnav');
+  topNav.addEventListener('click', close);
+
+  function close(){
+    var obj = document.getElementById("topnav");
+    obj.className = "nav-links";
+  }

@@ -624,10 +624,15 @@ footer {
         right: 0;
         left: 0;
         background-color: #f73d93;
-        transition: top 1s ease-in;
+        transition: 0.2s ease-in;
     }
     .nav-links.responsive a, .nav-links.responsive button {
-        display: block;
+        display: inline-block;
+    }
+    .nav-links.responsive button {
+        width: 50%;
+        margin: 10px auto;
+        padding: 12px 30px;
     }
     .nav-links a, .nav-links button {
         display: none;
