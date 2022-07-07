@@ -2,6 +2,9 @@
     box-sizing: border-box !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+html {
+    scroll-behavior: smooth;    /*scroll smoothly from one section of the page to another */
+}
 body {
     margin: 0;
 }
@@ -47,17 +50,21 @@ body {
     cursor: pointer;
     transition-duration: 0.2s;
 }
-.nav-links .bar-icon {
+.bar-icon {
     display: none;
     font-size: 2rem;
     font-weight: bold;
-    padding-top: 5px;
-    
+    padding: 5px 20px 20px;
+    text-decoration: none;
+    margin: 0;
+    color: #ffffff;
+    transition-duration: 0.2s;
+    cursor: pointer;
 }
-.nav-links a:hover {
+.nav-links a:hover, .bar-icon:hover {
     background-color:  #ff99cc;
 }
-.nav-links a:active {
+.nav-links a:active, .bar-icon:active {
     background-color: #cc0066;
 }
 .nav-links button:hover {
@@ -366,6 +373,8 @@ body {
     height: 550px;
     position: absolute;
     top: -40%;
+    clip-path: inset(15% 0% 0% 0%); /* I used clip-path to remove the part of the image background overlapping 'EXPLORE MORE' button */
+    -webkit-clip-path: inset(15% 0% 0% 0%);
 }
 .second-aside-item3-wrapper {
     flex: 0 0 30%;
@@ -606,11 +615,25 @@ footer {
 
 @media screen and (max-width: 992px) {
     /* navigation bar */
+    .nav-links.responsive {
+        flex-direction: column;
+        height: 100vh;
+        margin-top: 60px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-color: #f73d93;
+        transition: top 1s ease-in;
+    }
+    .nav-links.responsive a, .nav-links.responsive button {
+        display: block;
+    }
     .nav-links a, .nav-links button {
         display: none;
     }
-    .nav-links .bar-icon {
-        display: inline-block;
+    .bar-icon {
+        display: block;
     }
 
     /* First Section */
