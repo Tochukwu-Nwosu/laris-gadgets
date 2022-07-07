@@ -723,11 +723,26 @@ footer {
     .fourth-section-item:last-child {
         margin-right: 0;
     }
+
+    /* Footer */
+    .footer-items-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .credits {
+        width: 100%;
+        clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
+        -webkit-clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
+    }
 }
 
 @media screen and (max-width:768px) {
     .special-wrapper {
         height: auto;   /* This fix the first image in new product */
+    }
+    .credits {
+        clip-path: none;
+        -webkit-clip-path: none;
     }
 }
 
