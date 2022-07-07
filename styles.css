@@ -553,7 +553,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 auto 20px;
+    margin: 0 auto 40px;
 }
 .footer-links {
     flex: 0 0 10%;
@@ -570,11 +570,15 @@ footer {
 }
 .footer-about p {
     text-align: justify;
-    line-height: 1;
+    font-size: 13px;
 }
 .footer-about i {
     color: #ffffff;
     font-size: 1.3rem;
+    margin-right: 5px;
+}
+.credits p {
+    margin-bottom: 0;
 }
 
 
