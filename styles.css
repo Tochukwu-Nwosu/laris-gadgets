@@ -566,6 +566,7 @@ footer {
 }
 .footer-items-wrapper a {
     transition-duration: 0.2s;
+    cursor: pointer;
 }
 .footer-links {
     flex: 0 0 10%;
@@ -602,11 +603,21 @@ footer {
     margin: 0;
     font-size: 0.8rem;
 }
+.credits a {
+    text-decoration: none;
+    color: #ffffff;
+}
 .footer-items-wrapper a:hover {
     opacity: 0.5;
 }
 .footer-items-wrapper a:active {
     opacity: 1;
+}
+.credits a:hover {
+    text-decoration: underline;
+}
+.credits a:active {
+    text-decoration: none;
 }
 
 

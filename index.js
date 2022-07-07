@@ -1,3 +1,4 @@
+
 var obj = document.getElementById("topnav");
 
 // This function opens and closes the .nav-link.responsive via the hamburger icon.
