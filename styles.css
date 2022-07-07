@@ -541,6 +541,41 @@ body {
     opacity: 0.6;
 }
 
+/* Footer */
+footer {
+    width: 100%;
+    background-color: #16003b;
+    color: #ffffff;
+    padding-top: 80px;
+}
+.footer-items-wrapper {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto 20px;
+}
+.footer-links {
+    flex: 0 0 10%;
+}
+.footer-links p {
+    line-height: 2.3;
+}
+.footer-links p a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-about {
+    flex: 0 0 40%;
+}
+.footer-about p {
+    text-align: justify;
+    line-height: 1;
+}
+.footer-about i {
+    color: #ffffff;
+    font-size: 1.3rem;
+}
 
 
 
