@@ -614,7 +614,16 @@ footer {
 
 
 @media screen and (max-width: 992px) {
+    
     /* navigation bar */
+    .nav-links a, .nav-links button {
+        display: none;
+    }
+    .bar-icon {
+        display: block;
+    }
+
+    /* This class (secondary of .nav-links) will be implemented using JavaScript */
     .nav-links.responsive {
         flex-direction: column;
         height: 100vh;
@@ -623,22 +632,17 @@ footer {
         top: 0;
         right: 0;
         left: 0;
+        overflow: auto;
         background-color: #f73d93;
-        transition: 0.2s ease-in;
+        transition: 0.3s ease-in;
     }
     .nav-links.responsive a, .nav-links.responsive button {
-        display: inline-block;
+        display: block;
     }
     .nav-links.responsive button {
         width: 50%;
         margin: 10px auto;
         padding: 12px 30px;
-    }
-    .nav-links a, .nav-links button {
-        display: none;
-    }
-    .bar-icon {
-        display: block;
     }
 
     /* First Section */
