@@ -555,6 +555,9 @@ footer {
     justify-content: space-between;
     margin: 0 auto 40px;
 }
+.footer-items-wrapper a {
+    transition-duration: 0.2s;
+}
 .footer-links {
     flex: 0 0 10%;
 }
@@ -589,6 +592,14 @@ footer {
     margin: 0;
     font-size: 0.8rem;
 }
+.footer-items-wrapper a:hover {
+    opacity: 0.5;
+}
+.footer-items-wrapper a:active {
+    opacity: 1;
+}
+
+
 
 
 
