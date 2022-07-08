@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Poppins', sans-serif;
 }
 html {
     scroll-behavior: smooth;    /*scroll smoothly from one section of the page to another */
