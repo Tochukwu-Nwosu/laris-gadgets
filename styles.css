@@ -26,9 +26,10 @@ body {
 }
 .title {
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 500;
     padding: 10px;
     color: #ffffff;
+    cursor: default;
 }
 .nav-links {
     display: flex;
@@ -101,7 +102,7 @@ body {
     flex: 0 0 60%;
 }
 .text1-wrapper h1 {
-    margin: 0 0 10px;
+    margin: 0;
     color: #16003b;
 }
 .text1-wrapper .first-text {
@@ -114,7 +115,7 @@ body {
 }
 .text1-wrapper p {
     color: #16003b;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .text1-wrapper button {
     background-color: #16003b;
@@ -313,7 +314,7 @@ body {
     height: 246.8px;    /* selected the least height among the images, this is to make all images equal in height */
 }
 .category p {
-    font-weight: 500;
+    font-weight: 600;
 }
 .category:hover {
     box-shadow: 0 20px 10px 0 rgba(0,0,0,0.2);
@@ -564,6 +565,9 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto 40px;
+}
+.footer-items-wrapper h3 {
+    font-weight: 500;
 }
 .footer-items-wrapper a {
     transition-duration: 0.2s;
