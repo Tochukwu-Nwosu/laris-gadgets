@@ -1,6 +1,8 @@
 
 var obj = document.getElementById("topnav");
 
+var heart = document.getElementById("heart");
+
 // This function opens and closes the .nav-link.responsive via the hamburger icon.
 function collapse() {
   if (obj.className === "nav-links") {
@@ -16,4 +18,14 @@ obj.addEventListener('click', close);
 
 function close(){
   obj.className = "nav-links";
+}
+
+// THis function will change the like button
+function changeHeart() {
+  if (heart.className === "fa-regular fa-heart") {
+    heart.className = "fa fa-heart";
+  }
+  else {
+    heart.className = "fa-regular fa-heart"
+  }
 }
